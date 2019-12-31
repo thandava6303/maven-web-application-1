@@ -92,6 +92,18 @@
 		</dependency>
 		
 	</dependencies>
+	<distributionManagement>
+           <snapshotRepository>
+              <id>snapshots</id>
+              <name>2e62fbcea4d6-snapshots</name>
+              <url>http://ec2-54-234-170-135.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+          </snapshotRepository>
+          <repository>
+             <id>central</id>
+             <name>2e62fbcea4d6-releases</name>
+             <url>http://ec2-54-234-170-135.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+         </repository>
+     </distributionManagement>
 	<build>
 		<finalName>maven-web-application</finalName>
 		
@@ -106,7 +118,7 @@
 				</configuration>
 			</plugin>
 			<plugin>
-			        <groupId>org.apache.maven.pluginshttp://ec2-3-230-26-162.compute-1.amazonaws.com</groupId>
+			        <groupId>org.apache.maven.plugins</groupId>
                                 <artifactId>maven-deploy-plugin</artifactId>
                                 <version>2.8.2</version>
                         </plugin>
@@ -123,7 +135,7 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.maven.plugins<http://ec2-3-230-26-162.compute-1.amazonaws.com/groupId>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
@@ -133,9 +145,7 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
-			
-</plugins>
+              </plugins>
 	</build>
-	
 	
 </project>

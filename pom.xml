@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Madhu Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/madhu-release/</url>
+	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/Aayush-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Madhu Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/madhu-snapshot/</url>
+	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/Aayush-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -128,7 +128,7 @@
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.2.11.v20150529</version>
 				<configuration>
-					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<scanI></ntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
 						<contextPath>/maven-web-application</contextPath>
 					</webApp>

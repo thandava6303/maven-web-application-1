@@ -21,7 +21,19 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://ec2-3-230-26-162.compute-1.amazonaws.com</sonar.host.url>
+		<sonar.host.url>http://ec2-3-230-26-162.compute-1.amazonaws.com</son#Required metadata
+sonar.projectKey=java-sonar
+sonar.projectName=maven-web-application
+sonar.projectVersion=1.0
+
+#Comma-separated paths to directions with sources (required)
+sonar.sources=src
+
+#Language
+sonar.language=java
+
+#Encoding of the source files
+sonar.sourceEncoding=UTF-8ar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -130,7 +142,19 @@
 				<configuration>
 					<scanI></ntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/maven-web-applicat#Required metadata
+sonar.projectKey=java-sonar
+sonar.projectName=maven-web-application
+sonar.projectVersion=1.0
+
+#Comma-separated paths to directions with sources (required)
+sonar.sources=src
+
+#Language
+sonar.language=java
+
+#Encoding of the source files
+sonar.sourceEncoding=UTF-8ion</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>

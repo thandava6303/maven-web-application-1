@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Madhu Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-100-25-162-17.compute-1.amazonaws.com:8081/repository/madhu-release/</url>
+	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/madhu-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Madhu Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-100-25-162-17.compute-1.amazonaws.com:8081/repository/madhu-snapshot/</url>
+	      <url>http://ec2-54-227-159-40.compute-1.amazonaws.com:8081/repository/madhu-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

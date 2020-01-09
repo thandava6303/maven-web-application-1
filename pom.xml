@@ -97,12 +97,12 @@
            <repository>
               <id>central</id>
               <name>7023cf8eb205-releases</name>
-              <url>http://ec2-34-229-194-99.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+              <url>http://ec2-18-209-21-119.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
          </repository>
          <snapshotRepository>
             <id>snapshots</id>
             <name>7023cf8eb205-snapshots</name>
-            <url>http://ec2-34-229-194-99.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+            <url>http://ec2-18-209-21-119.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
          </snapshotRepository>
     </distributionManagement>
         <build>

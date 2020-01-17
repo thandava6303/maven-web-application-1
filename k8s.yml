@@ -1,19 +1,19 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: jenkins-rc
+  name: java-rc
 spec:
   replicas: 2
   selector:
-    app: jenkins
+    app: java
   template:
     metadata:
-      name: jenkins
+      name: java
       labels:
-        app: jenkins
+        app: java
     spec:
       containers:
-      - name: tomcat
+      - name: tomcatlatest
         image: allurimadhu1993/kubedeploy
         ports:
         - containerPort: 8080

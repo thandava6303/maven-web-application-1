@@ -1,19 +1,19 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: tomcat-rc
+  name: tom-rc
 spec:
   replicas: 2
   selector:
-    app: tomcat
+    app: tom
   template:
     metadata:
-      name: tomcat
+      name: tom
       labels:
-        app: tomcat
+        app: tom
     spec:
       containers:
-      - name: tomcat
+      - name: tom
         image: allurimadhu1993/kubedeploy
         ports:
         - containerPort: 8080
@@ -21,10 +21,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: tomcat
+  name: tom
 spec:
   type: LoadBalancer
   ports:
   - port: 8080
   selector:
-    app: tomcat
+    app: tom

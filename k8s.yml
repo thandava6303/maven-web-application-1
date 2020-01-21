@@ -8,13 +8,6 @@ spec:
     app: tom
   template:
     metadata:
-      name: tomapiVersion: apps/v1
-kind: ReplicaSet
-metadata:
-  name: replica
-spec:
-  template:
-    metadata:
       name: mypod
       labels:
         type: frontend
@@ -22,17 +15,7 @@ spec:
       containers: 
         - name: tomcat
           image: allurimadhu1993/kubedeploy
-  selector:
-    matchLabels:
-      type: frontend
-  replicas: 3   
-      labels:
-        app: tom
-    spec:
-      containers:
-      - name: tom
-        image: allurimadhu1993/kubedeploy
-        ports:
+          ports:
         - containerPort: 8080
 ---
 apiVersion: v1

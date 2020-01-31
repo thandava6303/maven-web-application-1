@@ -22,8 +22,6 @@
                 <junit.version>4.11</junit.version>
                 <log4j.version>1.2.17</log4j.version>
                 <sonar.host.url>http://ec2-3-230-26-162.compute-1.amazonaws.com</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-                <sonar.password>admin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -95,13 +93,13 @@
 	<distributionManagement>
            <snapshotRepository>
               <id>snapshots</id>
-              <name>c3f0562206ba-snapshots</name>
-              <url>http://ec2-3-84-182-77.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+              <name>bbc91720401c-snapshots</name>
+              <url>http://54.226.40.70:8081/artifactory/libs-snapshot-local</url>
          </snapshotRepository>
          <repository>
-            <id>central</id>
-            <name>c3f0562206ba-releases</name>
-            <url>http://ec2-3-84-182-77.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+             <id>central</id>
+	     <name>bbc91720401c-releases</name>
+             <url>http://54.226.40.70:8081/artifactory/libs-release-local</url>
         </repository>
     </distributionManagement>
         <build>

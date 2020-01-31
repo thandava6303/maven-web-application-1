@@ -92,14 +92,14 @@
 	</dependencies>
 	<distributionManagement>
            <snapshotRepository>
-              <id>snapshots</id>
-              <name>bbc91720401c-snapshots</name>
-              <url>http://54.226.40.70:8081/artifactory/libs-snapshot-local</url>
+	       <id>snapshots</id>
+       	       <name>bbc91720401c-snapshots</name>
+               <url>http://ec2-54-226-40-70.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
          </snapshotRepository>
          <repository>
-             <id>central</id>
-	     <name>bbc91720401c-releases</name>
-             <url>http://54.226.40.70:8081/artifactory/libs-release-local</url>
+	     <id>central</id>
+             <name>bbc91720401c-releases</name>
+             <url>http://ec2-54-226-40-70.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
         </repository>
     </distributionManagement>
         <build>

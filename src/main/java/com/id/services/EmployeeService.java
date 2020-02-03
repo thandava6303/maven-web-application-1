@@ -26,7 +26,7 @@ public class EmployeeService {
 		js.put("Calling Name", "Madhu");
 		js.put("DOB", "09-11-1993");
 		js.put("Healthy Environment", "Cloud Platform");
-		js.put("Environment like", "Eco-Friendly");
+		js.put("Environment like", "madhu");
 
 		return js.toString();
 }

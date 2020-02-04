@@ -12,8 +12,8 @@
         <description>Maven Web Project for Java Project</description>
 
         <organization>
-                <name>Mithun Technologies</name>
-                <url>http://mithuntechno-SNAPSHOTlogies.com/</url>
+                <name>Idexcel Technologies</name>
+                <url>http://idexceltechnologies.com/</url>
         </organization>
 
         <properties>
@@ -91,17 +91,18 @@
 
 	</dependencies>
 	<distributionManagement>
-           <snapshotRepository>
-	       <id>snapshots</id>
-       	       <name>bbc91720401c-snapshots</name>
-               <url>http://ec2-54-226-40-70.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
-         </snapshotRepository>
-         <repository>
-	     <id>central</id>
-             <name>bbc91720401c-releases</name>
-             <url>http://ec2-54-226-40-70.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
-        </repository>
-    </distributionManagement>
+
+	    <repository>
+	      <id>nexus</id>
+	      <name>Idexcel Technologies Releases Nexus Repository</name>
+	      <url>http://ec2-54-227-127-3.compute-1.amazonaws.com:8081/repository/madhu-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Idexcel Technologies Snapshot Nexus Repository </name>
+	      <url>http://ec2-54-227-127-3.compute-1.amazonaws.com:8081/repository/madhu-snapshot/</url>
+	    </snapshotRepository>
+       </distributionManagement>    
         <build>
                 <finalName>maven-web-application</finalName>
 

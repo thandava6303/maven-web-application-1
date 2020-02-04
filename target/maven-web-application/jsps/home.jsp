@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Idexcel Technologies.</h1>
-<h1 align="center">Very Good Organisation, healthy environment for freshers to gain knowledge </h1>
+<h2 align="center">Healthy environment for freshers to gain knowledge </h2>
 <hr>
 <div style="text-align: center;">
 	<span>

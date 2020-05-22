@@ -1,0 +1,49 @@
+22-May-2020 18:31:05.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+22-May-2020 18:31:05.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+22-May-2020 18:31:05.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+22-May-2020 18:31:05.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-May-2020 18:31:05.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-1065-aws
+22-May-2020 18:31:05.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-May-2020 18:31:05.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+22-May-2020 18:31:05.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1~18.04-b09
+22-May-2020 18:31:05.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+22-May-2020 18:31:05.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50
+22-May-2020 18:31:05.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50
+22-May-2020 18:31:05.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/conf/logging.properties
+22-May-2020 18:31:05.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-May-2020 18:31:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-May-2020 18:31:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-May-2020 18:31:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-May-2020 18:31:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-May-2020 18:31:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50
+22-May-2020 18:31:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50
+22-May-2020 18:31:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/temp
+22-May-2020 18:31:05.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-May-2020 18:31:05.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-May-2020 18:31:05.763 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-May-2020 18:31:05.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-May-2020 18:31:05.796 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-May-2020 18:31:05.800 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1100 ms
+22-May-2020 18:31:05.852 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-May-2020 18:31:05.855 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+22-May-2020 18:31:05.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/maven-web-application.war]
+22-May-2020 18:31:07.535 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-May-2020 18:31:07.616 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+22-May-2020 18:31:09.476 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1859 ms
+22-May-2020 18:31:09.506 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'id'
+22-May-2020 18:31:09.770 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 264 ms
+22-May-2020 18:31:09.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/maven-web-application.war] has finished in [3,884] ms
+22-May-2020 18:31:09.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/docs]
+22-May-2020 18:31:09.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/docs] has finished in [32] ms
+22-May-2020 18:31:09.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/examples]
+22-May-2020 18:31:10.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/examples] has finished in [366] ms
+22-May-2020 18:31:10.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/ROOT]
+22-May-2020 18:31:10.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/ROOT] has finished in [24] ms
+22-May-2020 18:31:10.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/manager]
+22-May-2020 18:31:10.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/manager] has finished in [42] ms
+22-May-2020 18:31:10.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/host-manager]
+22-May-2020 18:31:10.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/maven/maven-web-application-1/apache-tomcat-8.5.50/webapps/host-manager] has finished in [76] ms
+22-May-2020 18:31:10.348 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-May-2020 18:31:10.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+22-May-2020 18:31:10.387 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4586 ms
+22-May-2020 18:32:54.032 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /maven-web-application/services/employee

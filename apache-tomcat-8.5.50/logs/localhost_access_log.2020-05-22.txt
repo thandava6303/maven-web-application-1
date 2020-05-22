@@ -1,0 +1,16 @@
+27.7.191.90 - - [22/May/2020:18:32:19 +0000] "GET / HTTP/1.1" 200 11215
+27.7.191.90 - - [22/May/2020:18:32:19 +0000] "GET /tomcat.css HTTP/1.1" 200 5581
+27.7.191.90 - - [22/May/2020:18:32:19 +0000] "GET /tomcat.png HTTP/1.1" 200 5103
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /bg-nav.png HTTP/1.1" 200 1401
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /asf-logo-wide.svg HTTP/1.1" 200 27235
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /bg-upper.png HTTP/1.1" 200 3103
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /bg-middle.png HTTP/1.1" 200 1918
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /bg-button.png HTTP/1.1" 200 713
+27.7.191.90 - - [22/May/2020:18:32:20 +0000] "GET /favicon.ico HTTP/1.1" 200 21630
+27.7.191.90 - - [22/May/2020:18:32:34 +0000] "GET /maven-web-application HTTP/1.1" 302 -
+27.7.191.90 - - [22/May/2020:18:32:34 +0000] "GET /maven-web-application/ HTTP/1.1" 200 1033
+27.7.191.90 - - [22/May/2020:18:32:34 +0000] "GET /maven-web-application/images/prodapt.jpg HTTP/1.1" 200 3766
+27.7.191.90 - - [22/May/2020:18:32:41 +0000] "GET /maven-web-application/services/employee/getEmployeeDetails HTTP/1.1" 200 135
+27.7.191.90 - - [22/May/2020:18:32:54 +0000] "GET /maven-web-application/services/employee HTTP/1.1" 404 682
+27.7.191.90 - - [22/May/2020:18:33:01 +0000] "GET /maven-web-application/ HTTP/1.1" 200 1033
+27.7.191.90 - - [22/May/2020:18:33:14 +0000] "GET /maven-web-application/services/employee/getEmployeeDetails HTTP/1.1" 200 135

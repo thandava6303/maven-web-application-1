@@ -4,26 +4,25 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>IdexcelTechnologies- Home Page</title>
-<link href="images/idexcellogo.jpg" rel="icon">
+<title>Prodapt Solutions Pvt Ltd- Home Page</title>
+<link href="images/prodapt.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Idexcel Technologies.</h1>
-<h2 align="center">Healthy environment for freshers to gain knowledge </h2>
+<h1 align="center">Welcome to Prodapt.</h1>
+<h2 align="center">IT Services </h2>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/idexcellogo.jpg" alt="" width="100">
+		<img src="images/prodapt.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-          	Idexcel Technologies, 
-		Crystal Plaza, #9-11,Bhuvanappa Layout, Hosur Main Road,
-		Bangalore - 560029,
-		Karnataka,
-		+91-8025508830,
+          	Prodapt Solutions Pvt Ltd, 
+		Economic Zone, Thoraipakkam,
+		chennai.
+		+91-9866430409,
 		<br>
-		<a href="mailto:madhusudhanachari.a@idexcel.com">Mail to Idexcel Technologies</a>
+		<a href="mailto:madhusudhanachari.a@prodapt.com">Mail to Prodapt Solutions</a>
 	</span>
 </div>
 <hr>

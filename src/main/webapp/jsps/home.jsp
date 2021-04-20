@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Techacademics.</h1>
+<h1 align="center">Welcome to Techacademics Solutions.</h1>
 <h2 align="center">IT Services </h2>
 <hr>
 <div style="text-align: center;">

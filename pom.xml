@@ -5,7 +5,7 @@
         <groupId>com.mt</groupId>
         <artifactId>maven-web-application</artifactId>
         <packaging>war</packaging>
-        <version>1.2</version>
+        <version>1.2-SNAPSHOT</version>
 
         <name>maven-web-application</name>
 
@@ -87,12 +87,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Idexcel Technologies Releases Nexus Repository</name>
-	      <url>http://65.2.81.156:8081/repository/release/</url>
+	      <url>http://15.206.195.22:8081/repository/maven-web-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Idexcel Technologies Snapshot Nexus Repository </name>
-	      <url>http://65.2.81.156:8081/repository/snapshot/</url>
+	      <url>http://15.206.195.22:8081/repository/maven-web-snapshot/</url>
 	    </snapshotRepository>
        </distributionManagement>    
         <build>

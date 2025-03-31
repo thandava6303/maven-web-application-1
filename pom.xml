@@ -95,7 +95,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Idexcel Technologies Snapshot Nexus Repository </name>
-	      <urlhttp://3.108.218.247:8081/repository/mavenweb-snapshot//</url>
+	      <url>http://3.108.218.247:8081/repository/mavenweb-snapshot//</url>
 	    </snapshotRepository>
        </distributionManagement>    
         <build>

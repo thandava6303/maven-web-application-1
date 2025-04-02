@@ -12,7 +12,7 @@ node {
     }
    
      stage('Upload Artifacts into Nexus'){
-        sh '${maven}/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn deploy'
+        sh '${maven}/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn clean deploy'
         
     }
 }
